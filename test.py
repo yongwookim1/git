@@ -7,4 +7,3 @@ def eratosthenes(n):
                 prime[i] = False
         p += 1
     return [p for p in range(2, n+1) if prime[p]]
-    
